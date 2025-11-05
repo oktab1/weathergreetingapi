@@ -19,9 +19,9 @@ Requires DotNet 9
 - `dotnet publish -c Release -o ./publish`
 - The folder `./publish` contains all files needed to run your app.
 
-## To Run Locally
-- `dotnet run`
-- Go to `http://<localhost-or-ip>:5000/weather?name=YourName`
+## To run on local development machine
+- `dotnet WeatherGreetingApi.dll`
+- Go to `http://<localhost-or-ip>:5000/weather?name=your-name&city=your-city`
 
 # Deploy to Target Server
 
